@@ -1,0 +1,87 @@
+body {
+	background-color: lemonchiffon;
+	background-image: url(../images/bg.jpg);
+	background-repeat:no-repeat;
+background-size:cover;
+	font-family: Helvetica, Arial, sans-serif 
+}
+
+.main {
+
+	background-color: rgba(255,255,255,0.72);
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+
+
+h1,h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 45px;
+	font-family: 'Poiret One', cursive;
+
+}
+
+h2 {
+
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	border-top: 10px solid black;
+	padding-top: 20px;
+	border-bottom: 10px solid black;
+	padding-bottom: 20px;
+	font-family: 'Poiret One', cursive;
+	}
+/*This is a css comment*/
+
+
+/* tells you these things are clicker from user experience PoV */
+
+h3 {
+
+	cursor:pointer;
+}
+
+h3, div p{
+
+	margin-bottom: 0;
+}
+
+
+img {
+	width: 200px;
+	display: block; 
+	margin:0 auto;
+	border-radius: 38%;
+	border:30px solid black;
+	cursor:pointer;
+}
+
+p,ul,ol {
+	line-height: 1.4;
+	list-style: none;
+	padding: 0;
+	color:gray;
+}
+
+.banana{
+	color:black;
+}
+
+a{
+	color: purple;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+color: pink;
+text-decoration: underline;
+}
